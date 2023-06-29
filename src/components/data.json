@@ -1,0 +1,70 @@
+{
+    "cryptos": [
+      {
+        "symbol": "BTC",
+        "name": "Bitcoin"
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum"
+      },
+      {
+        "symbol": "XRP",
+        "name": "Ripple"
+      }
+    ],
+    "fiats": {
+      "BTC": [
+        {
+          "code": "USD",
+          "name": "United States Dollar",
+          "rate": 45000
+        },
+        {
+          "code": "EUR",
+          "name": "Euro",
+          "rate": 38000
+        },
+        {
+          "code": "JPY",
+          "name": "Japanese Yen",
+          "rate": 5000000
+        }
+      ],
+      "ETH": [
+        {
+          "code": "USD",
+          "name": "United States Dollar",
+          "rate": 3000
+        },
+        {
+          "code": "EUR",
+          "name": "Euro",
+          "rate": 2500
+        },
+        {
+          "code": "JPY",
+          "name": "Japanese Yen",
+          "rate": 350000
+        }
+      ],
+      "XRP": [
+        {
+          "code": "USD",
+          "name": "United States Dollar",
+          "rate": 1.2
+        },
+        {
+          "code": "EUR",
+          "name": "Euro",
+          "rate": 1
+        },
+        {
+          "code": "JPY",
+          "name": "Japanese Yen",
+          "rate": 130
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,119 @@
+.contact {
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.contact .containerc {
+  height: 100vh;
+  min-height: 700px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.contact .containerc div {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.left {
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 65px 1.5rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    position: relative;
+    z-index: 3;
+}
+
+.contact-heading h1 {
+    font-weight: 600;
+    color: white;
+    font-size: 3.5rem;
+    line-height: 0.9;
+    white-space: nowrap;
+    margin-bottom: 1.2rem;
+}
+
+.text {
+    color: aliceblue;
+    line-height: 1.1;
+    font-size: 1rem;
+}
+
+.text a {
+    color: blue;
+    transition: 0.3s;
+}
+
+.contact-form {
+    display: grid;
+    margin-top: 2.55rem;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 1rem;
+}
+
+.input-wrap {
+    position: relative;
+}
+
+.input-wrap.w-100 {
+    grid-column: span 2;
+}
+
+
+.contact-input {
+    width: 100%;
+    background-color: grey;
+    padding: 1.5rem 1.35rem calc(0.75rem - 2px) 1.35rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: 0.3s;
+}
+.input-wrap label {
+    position: absolute;
+    top: 50%;
+    left: calc(1.35rem + 2px);
+    transform: translate(-50%);
+    color: aliceblue;
+    pointer-events: none;
+}
+
+.input-wrap .icon {
+    position: absolute;
+    right: calc(1.35rem + 2px);
+    top: 50%;
+    transform: translate(-50%);
+    pointer-events: none;
+    color: white;
+    font-size: .25 ;
+}
+
+textarea.contact-input {
+    resize: none;
+    width: 100%;
+    min-height: 150px;
+}
+
+textarea.contact-input ~ label {
+    top: 1.2rem;
+    transform: none;
+}
+
+textarea.contact-input ~ .icon {
+    top: 1.3rem;
+    transform: none;
+}
+
+.form-wrapper {
+    max-width: 32rem;
+}

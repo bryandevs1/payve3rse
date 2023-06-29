@@ -1,0 +1,74 @@
+{
+  "name": "payver",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.7.15",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/material": "^5.13.5",
+    "@tailwindcss/forms": "^0.5.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "graphql": "^16.6.0",
+    "graphql-request": "^6.1.0",
+    "html-react-parser": "^4.0.0",
+    "jquery": "^1.12.0",
+    "jquery-mousewheel": "^3.1.13",
+    "jquery-ui-dist": "^1.13.2",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-3d-carousel-container": "^1.1.2",
+    "react-awesome-reveal": "^4.2.3",
+    "react-countup": "^6.4.2",
+    "react-dom": "^18.2.0",
+    "react-feather": "^2.0.10",
+    "react-multi-carousel": "^2.8.4",
+    "react-responsive": "^9.0.2",
+    "react-router": "^6.13.0",
+    "react-router-dom": "^6.13.0",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "react-social-icons": "^5.15.0",
+    "react-tsparticles": "^2.10.1",
+    "sass": "^1.63.4",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.11",
+    "swiper": "^9.4.1",
+    "three": "^0.153.0",
+    "turn.js": "https://github.com/rizalibnu/turn.js.git",
+    "vanta": "^0.5.24",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
